@@ -1,0 +1,19 @@
+PackageIdentifier: cyd01.KiTTY
+PackageVersion: 0.76.1.13
+PackageLocale: en-US
+Publisher: cyd01
+PublisherUrl: https://www.9bis.com/kitty/
+PublisherSupportUrl: https://github.com/cyd01/KiTTY/issues
+Author: Cyril Dupont
+PackageName: KiTTY
+PackageUrl: https://github.com/cyd01/KiTTY
+License: MIT
+LicenseUrl: https://github.com/cyd01/KiTTY/blob/master/LICENCE.TXT
+ShortDescription: Fork of PuTTY with additional features and enhancements.
+Moniker: kitty
+Tags:
+  - ssh
+  - terminal
+  - putty
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0

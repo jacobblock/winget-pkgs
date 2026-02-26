@@ -1,0 +1,23 @@
+PackageIdentifier: cyd01.KiTTY
+PackageVersion: 0.76.1.13
+InstallerType: zip
+NestedInstallerType: portable
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/cyd01/KiTTY/releases/download/v0.76.1.13/kitty-bin-0.76.1.13.zip
+    InstallerSha256: 768d93e616c0dd8918c08d317da3857d37a5328daff5c7115b40700913773965
+    NestedInstallerFiles:
+    - RelativeFilePath: kitty.exe
+      PortableCommandAlias: kitty
+    - RelativeFilePath: kittygen.exe
+      PortableCommandAlias: kittygen
+    - RelativeFilePath: kageant.exe
+      PortableCommandAlias: kageant
+    - RelativeFilePath: ksftp.exe
+      PortableCommandAlias: ksftp
+    - RelativeFilePath: kscp.exe
+      PortableCommandAlias: kscp
+    - RelativeFilePath: klink.exe
+      PortableCommandAlias: klink
+ManifestType: installer
+ManifestVersion: 1.6.0
